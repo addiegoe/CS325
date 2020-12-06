@@ -1,0 +1,32 @@
+body {
+	font-family:verdana;
+}
+
+div {
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.peg {
+	width:50px;
+}
+
+.pin {
+	width:20px;
+}
+
+h3 {
+	color:red;
+}
+
+#title {
+	align:auto;
+	text-align:center;
+	background-color:#FEED5F
+}
+
+#copyright {
+	font-size:10px;
+	background-color: #ADECFF;
+}

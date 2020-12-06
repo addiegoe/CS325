@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Emily Addiego Portfolio Project</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="title">
+		<img src="https://img.icons8.com/bubbles/100/000000/brain.png"/><h1>Welcome to Mastermind</h1>
+	</div>
+	<div id="instructions">
+		<p>Play against the program! The program will choose four colored pegs and place them in order. The possible colors are: red, blue, yellow, green, orange, and purple. No duplicate colors are allowed. You get 8 guesses to solve the puzzle. At each step, the program will give you a clue. If the program places a white peg, you've guessed a color correctly. If the program places a black peg, you've guessed the color and position of a peg correctly. The clues are not in order of the peg placement. Good luck!</p>
+	</div>
+	<div id="game_status"><br>
+		<h3>Round 1</h3></div>
+	<div id="guesses"></div>
+	<div id ="guess">
+		<p><b>Enter your guess</b></p>
+		Peg 1: <input id = "p1"><br>
+		Peg 2: <input id = "p2"><br>
+		Peg 3: <input id = "p3"><br>
+		Peg 4: <input id = "p4"><br>
+		<p><button id="guess_button">Check my guess</button></p>
+	</div>
+	<div id="message">
+	</div>
+		<div id="final">
+			<i>Solution is hidden</i>
+		</div>
+	<div id="copyright">
+		<p>This app &#169; 2020 by Emily Addiego</p>
+		<p>Designed for Oregon State University's CS 325 Algorithms course, portfolio project</p>
+		<p>Icons sourced from: <a target="_blank" href="https://icons8.com/icons/set/sphere">Sphere icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+	<script src="script.js"></script>
+</body>
+</html>
+
