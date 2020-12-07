@@ -4,7 +4,7 @@
 
 
 Instructions for running program:
-1) Can be run remotely on gitbhub pages at: 
+1) Can be run remotely on github pages at: https://addiegoe.github.io/CS325/index.html
 
 2) Can be run locally on Mac or Windows environment by downloading files and opening index.html in Google Chrome.
 
