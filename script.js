@@ -287,10 +287,21 @@ function showSolution(sol){
 	img4.setAttribute("class", "peg");
 	s.appendChild(img4);
 
+	var new_par = document.createElement("p");
+	var play_again = document.createElement("a");
+	var link = document.createTextNode("Click here to play again");
+	play_again.appendChild(link);
+	play_again.href="index.html";
+	new_par.appendChild(play_again);
+	s.appendChild(new_par);
+
+
 	document.getElementById("p1").value = "";
 	document.getElementById("p2").value = "";
 	document.getElementById("p3").value = "";
 	document.getElementById("p4").value = "";
+
+
 }
 
 //create global variable for solution

@@ -30,3 +30,12 @@ h3 {
 	font-size:10px;
 	background-color: #ADECFF;
 }
+
+a {
+	color: red;
+	text-decoration:none;
+}
+
+a:hover{
+	color:black;
+}
